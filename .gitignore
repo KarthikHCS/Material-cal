@@ -1,0 +1,53 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editors
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Node.js (if applicable)
+node_modules/
+
+# Project data
+0011-19758/
+pem-viewer/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
